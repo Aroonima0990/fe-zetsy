@@ -1,6 +1,13 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
+	@font-face {
+		font-family: myFirstFont;
+		src: url(/home/paloma/fe-zetsy/fonts/Baskerville.ttc);
+	}
+	
+
+
 
 /*////////// Global Styles //////////*/
 
@@ -18,3 +25,57 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1 a {
+	font-size: 2.5em;
+	font-weight: 500;
+	margin: 0;
+	text-decoration: none;
+	color: #98ada6;	
+}
+
+h1 {
+	margin: 0;
+}
+
+hr {
+	color: #cccccc62;
+	border: 0.1px inset;
+	margin: 10px 0 4px 0;	
+}
+
+.necklace {
+	border: 5px solid #98ada6;
+}
+
+h2 {
+	font-size: 2em;
+	color: #6f7f7a;
+}
+
+section p {
+	color: #66706d;
+}
+section a {
+	color: #1792d5;
+	text-decoration: none;
+}
+
+.press img{
+	border: 5px solid #cccccc;
+}
+
+footer {
+	color: #66706d;
+	font-size: 0.8em;
+	text-align: end;
+	padding: 20px;
+}
+
+.press img:hover {
+	border: 5px solid #66706d;
+}
+
+h1 a:hover {
+	color:  #66706d;
+}
